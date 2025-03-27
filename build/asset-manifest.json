@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9be4df2f.css",
+    "main.js": "/static/js/main.63034d0b.js",
+    "static/media/work7.jpg": "/static/media/work7.b8910c30054de7495fef.jpg",
+    "static/media/CV-Quentin_Courtieux.pdf": "/static/media/CV-Quentin_Courtieux.60095efa3353ec5e6695.pdf",
+    "static/media/work4.jpg": "/static/media/work4.43215155ca893bdb8da8.jpg",
+    "static/media/work5.jpg": "/static/media/work5.de4d7b870548787f6ca5.jpg",
+    "static/media/work1.jpg": "/static/media/work1.5787f6a0dc7a222fbafa.jpg",
+    "static/media/work2.jpg": "/static/media/work2.d1257fab0bef00e8af1f.jpg",
+    "static/media/AroFly_Logo-14.png": "/static/media/AroFly_Logo-14.35d2766bc0ee9da6da25.png",
+    "static/media/Aten.png": "/static/media/Aten.e3f94aec3149e98c57c1.png",
+    "static/media/work8.jpg": "/static/media/work8.3fd10fec9074e134a0a0.jpg",
+    "static/media/Exiode.png": "/static/media/Exiode.9d59a747936b0684cefe.png",
+    "static/media/work3.jpg": "/static/media/work3.be619193bec2a44ba84c.jpg",
+    "static/media/BVB_France.png": "/static/media/BVB_France.84bacce60a67df74900d.png",
+    "static/media/work6.jpg": "/static/media/work6.bb1fae085d4287f9045c.jpg",
+    "static/media/Noé.png": "/static/media/Noé.d92b033708cd220485a1.png",
+    "static/media/AroFly Logo-03.svg": "/static/media/AroFly Logo-03.c45693d48563cb87933138428009e03c.svg",
+    "index.html": "/index.html",
+    "main.9be4df2f.css.map": "/static/css/main.9be4df2f.css.map",
+    "main.63034d0b.js.map": "/static/js/main.63034d0b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9be4df2f.css",
+    "static/js/main.63034d0b.js"
+  ]
+}
