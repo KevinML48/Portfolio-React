@@ -1,4 +1,5 @@
 import React from "react";
+import { FaInstagram, FaTwitter, FaLinkedin, FaCamera, FaBehance } from "react-icons/fa";
 
 const Social = () => {
   return (
@@ -9,7 +10,7 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="uil uil-instagram"></i>
+        <FaInstagram />
       </a>
 
       <a
@@ -18,7 +19,7 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="uil uil-twitter"></i>
+        <FaTwitter />
       </a>
 
       <a
@@ -27,7 +28,7 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="uil uil-linkedin-alt"></i>
+        <FaLinkedin />
       </a>
 
       <a
@@ -36,7 +37,7 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="uil uil-camera"></i>
+        <FaCamera />
       </a>
 
       <a
@@ -45,7 +46,7 @@ const Social = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="uil uil-behance"></i>
+        <FaBehance />
       </a>
     </div>
   );

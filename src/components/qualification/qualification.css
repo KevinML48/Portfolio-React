@@ -14,10 +14,11 @@
     color: var(--title-color);
     margin: 0 var(--mb-1);
     cursor: pointer;
+    transition: color 0.3s;
 }
 
 .qualification__button:hover {
-    color: var(--title-color-dark);
+    color: #007bff; /* Bleu vif au survol */
 }
 
 .qualification__icon {
@@ -26,7 +27,7 @@
 }
 
 .qualification__active {
-    color: var(--title-color-dark);
+    color: #007bff; /* Bleu vif quand actif */
 }
 
 .qualification__sections {
@@ -86,17 +87,17 @@
         margin-left: auto;
         margin-right: auto;
     }
-  }
+}
   
-  /* For medium devices */
-  @media screen and (max-width: 768px) {
+/* For medium devices */
+@media screen and (max-width: 768px) {
     .qualification__container {
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
     }
-  }
+}
   
-  @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .qualification__sections {
         grid-template-columns: initial;
     }
@@ -104,12 +105,11 @@
     .qualification__button {
         margin: 0 var(--mb-0-75);
     }
-  }
+}
   
-  /* For small devices */
-  @media screen and (max-width: 350px) {
+/* For small devices */
+@media screen and (max-width: 350px) {
     .qualification__data {
         gap: 0.5rem;
     }
-  }
-  
+}

@@ -42,10 +42,10 @@
     display: none;
 }
 
-/* Active link */
+/* Active link et hover */
 .active-link,
 .nav__link:hover {
-    color: var(--title-color-dark);
+    color: #007bff; /* Bleu vif au survol et quand actif */
 }
 
 /* Change background header */
@@ -102,7 +102,7 @@
     }
 
     .nav__close:hover {
-        color: var(--title-color-dark);
+        color: #007bff; /* Bleu vif au survol */
     }
 
     .nav__toggle {

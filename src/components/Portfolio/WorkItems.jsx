@@ -8,7 +8,7 @@ const WorkItems = ({ item }) => {
       <a 
         href={`/work/${item.slug}/index.html`} 
         rel="noopener noreferrer" 
-        className="work__button"
+        className="work__button" target="_blank"
       >
         Demo
         <i className="bx bx-right-arrow-alt work__button-icon"></i>

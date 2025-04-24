@@ -18,7 +18,7 @@
 }
 
 .footer__link:hover {
-    color: var(--title-color-dark);
+    color: #007bff; /* Bleu vif au survol */
 }
 
 .footer__list {
@@ -44,7 +44,7 @@
 }
 
 .footer__social-link:hover {
-    background-color: var(--title-color-dark);
+    background-color: #007bff; /* Bleu vif au survol */
 }
 
 .footer__copy {
@@ -63,4 +63,4 @@
         border-radius: 0.25rem;
         font-size: 1rem;
     }
-  }
+}

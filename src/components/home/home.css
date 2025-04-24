@@ -21,7 +21,7 @@
 }
 
 .home__social-icon:hover {
-  color: var(--title-color-dark);
+  color: #007bff; /* Bleu vif au survol */
 }
 
 .home__title {
