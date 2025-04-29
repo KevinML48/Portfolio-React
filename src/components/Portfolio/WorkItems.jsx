@@ -1,18 +1,46 @@
-import React from "react";
+import React, { useState } from "react";
 
 const WorkItems = ({ item }) => {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleDemoClick = (e) => {
+    e.preventDefault();
+    setShowModal(true);
+    document.body.style.overflow = "hidden";
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+    document.body.style.overflow = "auto";
+  };
+
   return (
-    <div className="work__card" key={item.id}>
-      <img src={item.image} alt="" className="work__img" />
+    <div className="work__card">
+      <img src={item.image} alt={item.title} className="work__img" />
       <h3 className="work__title">{item.title}</h3>
-      <a 
-        href={`/work/${item.slug}/index.html`} 
-        rel="noopener noreferrer" 
-        className="work__button" target="_blank"
-      >
+      <a href="#" className="work__button" onClick={handleDemoClick}>
         Demo
         <i className="bx bx-right-arrow-alt work__button-icon"></i>
       </a>
+
+      {/* Modal */}
+      {showModal && (
+        <div className="modal-overlay" onClick={handleCloseModal}>
+          <div
+            className="modal-content"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button className="modal-close" onClick={handleCloseModal}>
+              &times;
+            </button>
+            <img
+              src={item.modalImage || item.image}
+              alt={`Preview ${item.title}`}
+              className="modal-img"
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
