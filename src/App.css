@@ -149,15 +149,16 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
-  color: var(--container-color);
+  background-color: #007bff;      /* <-- BLEU VIF */
+  color: #fff;                   /* Texte blanc */
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  transition: background 0.2s;
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: #0056b3;     /* Bleu foncé au survol */
 }
 
 .button__icon {

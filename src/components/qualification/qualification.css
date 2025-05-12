@@ -98,13 +98,23 @@
 }
   
 @media screen and (max-width: 576px) {
-    .qualification__sections {
-        grid-template-columns: initial;
-    }
+  .qualification__button {
+    font-size: 0.9rem;         /* encore plus petit */
+    margin: 0 var(--mb-0-5);   /* réduit l'espacement horizontal */
+  }
+  .qualification__icon {
+    font-size: 1.2rem;         /* réduit la taille de l'icône */
+  }
+}
 
-    .qualification__button {
-        margin: 0 var(--mb-0-75);
-    }
+@media screen and (max-width: 400px) {
+  .qualification__button {
+    font-size: 0.8rem;
+    margin: 0 var(--mb-0-25);
+  }
+  .qualification__icon {
+    font-size: 1rem;
+  }
 }
   
 /* For small devices */

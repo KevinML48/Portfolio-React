@@ -25,22 +25,24 @@ const WorkItems = ({ item }) => {
 
       {/* Modal */}
       {showModal && (
-        <div className="modal-overlay" onClick={handleCloseModal}>
-          <div
-            className="modal-content"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <button className="modal-close" onClick={handleCloseModal}>
-              &times;
-            </button>
-            <img
-              src={item.modalImage || item.image}
-              alt={`Preview ${item.title}`}
-              className="modal-img"
-            />
-          </div>
-        </div>
-      )}
+  <>
+    <div className="modal-overlay" onClick={handleCloseModal}>
+      <div
+        className="modal-content"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <img
+          src={item.modalImage || item.image}
+          alt={`Preview ${item.title}`}
+          className="modal-img"
+        />
+      </div>
+    </div>
+    <button className="modal-close" onClick={handleCloseModal}>
+      &times;
+    </button>
+  </>
+)}
     </div>
   );
 };

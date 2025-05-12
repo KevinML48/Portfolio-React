@@ -135,7 +135,7 @@
   justify-content: flex-start;
   z-index: 1000;
   backdrop-filter: blur(8px);
-  overflow-y: auto;
+  overflow-y: auto; /* Scroll sur l'overlay */
 }
 
 .modal-content {
@@ -149,10 +149,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  /* PAS de max-height ni overflow ici */
 }
 
 .modal-close {
-  position: fixed;
+  position: fixed;     /* Toujours visible en haut à droite de la fenêtre */
   top: 24px;
   right: 48px;
   background: rgba(0,0,0,0.77);
@@ -160,7 +161,7 @@
   color: #fff;
   font-size: 2.5em;
   cursor: pointer;
-  z-index: 2;
+  z-index: 1100;       /* plus haut que la modal pour être toujours visible */
   border-radius: 50%;
   width: 46px;
   height: 46px;
